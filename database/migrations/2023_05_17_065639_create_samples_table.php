@@ -15,7 +15,7 @@ class CreateSamplesTable extends Migration
     {
         Schema::create('samples', function (Blueprint $table) {
             $table->id();
-            $table->string("name");
+            $table->string("tweet");
             $table->string("title");
             $table->timestamps();
         });
